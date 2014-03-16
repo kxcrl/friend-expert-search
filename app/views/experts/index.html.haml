@@ -1,0 +1,8 @@
+%h1 The Expert Directory
+%h3 The experts of the world, in one place.
+
+- @experts.each do |e|
+  %ul
+    %li= e.name
+    %li= e.website_short
+    %li= e.friends.count
