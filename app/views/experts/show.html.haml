@@ -1,0 +1,9 @@
+%h1= @expert.name
+%ul
+  %li= link_to @expert.website_short
+  %li= @expert.website
+
+- @expert.friends.each do |f|
+  %ul
+    %li= link_to f.name, f
+    %li= link_to f.website_short

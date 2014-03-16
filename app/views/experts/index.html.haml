@@ -3,6 +3,6 @@
 
 - @experts.each do |e|
   %ul
-    %li= e.name
+    %li= link_to e.name, e
     %li= e.website_short
     %li= e.friends.count
