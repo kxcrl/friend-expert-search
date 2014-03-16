@@ -1,9 +1,11 @@
 class Expert < ActiveRecord::Base
   include Neoid::Node
 
-  attr_accessible :name, :website, :website_short, :h1s, :h2s, :h3s
+  has_many :friendships
+  has_many :friends, through: :friendships
 
-  has_many :friends, class_name: Friendship
+  neoidable do |c|
+  end
 
   neoidable do |c|
     c.field :name
