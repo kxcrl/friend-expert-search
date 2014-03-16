@@ -20,5 +20,5 @@ end
 Neoid.db = $neo
 
 Neoid.configure do |c|
-  c.enable_subrefs = true
+  c.enable_subrefs = false
 end
