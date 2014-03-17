@@ -1,6 +1,6 @@
 class Expert < ActiveRecord::Base
   has_many :friendships
-  has_many :friends, through: :friendships, class_name: :expert
+  has_many :friends, through: :friendships, source: :expert
 
   after_create do |e|
     $neo.execute_query(
