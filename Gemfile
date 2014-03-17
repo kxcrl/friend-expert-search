@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.4'
 gem 'pg'
 gem 'jbuilder', '~> 1.2'
-gem 'neoid', git: 'git://github.com/elado/neoid.git'
+gem 'neography'
 gem 'haml'
 
 group :doc do

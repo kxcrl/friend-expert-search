@@ -24,3 +24,6 @@ claudia = Expert.create(
   h2s: '',
   h3s: ''
 )
+
+Friendship.create_both(alan, bart)
+Friendship.create_both(claudia, bart)

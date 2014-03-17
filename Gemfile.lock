@@ -1,10 +1,3 @@
-GIT
-  remote: git://github.com/elado/neoid.git
-  revision: edf484009a6a701f3fd91472b44ecdd17e8401ab
-  specs:
-    neoid (0.1.2)
-      neography
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -108,7 +101,7 @@ PLATFORMS
 DEPENDENCIES
   haml
   jbuilder (~> 1.2)
-  neoid!
+  neography
   pg
   rails (= 4.0.4)
   sdoc

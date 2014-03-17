@@ -16,9 +16,3 @@ Neography.configure do |c|
     c.password = uri.password
   end
 end
-
-Neoid.db = $neo
-
-Neoid.configure do |c|
-  c.enable_subrefs = false
-end
